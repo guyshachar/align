@@ -1,0 +1,16 @@
+/Users/guyshachar/Projects/AlignAgents/AlignAgents/bin/Debug/netcoreapp2.1/appsettings.Development.json
+/Users/guyshachar/Projects/AlignAgents/AlignAgents/bin/Debug/netcoreapp2.1/appsettings.json
+/Users/guyshachar/Projects/AlignAgents/AlignAgents/bin/Debug/netcoreapp2.1/Properties/launchSettings.json
+/Users/guyshachar/Projects/AlignAgents/AlignAgents/bin/Debug/netcoreapp2.1/AlignMissions.deps.json
+/Users/guyshachar/Projects/AlignAgents/AlignAgents/bin/Debug/netcoreapp2.1/AlignMissions.runtimeconfig.json
+/Users/guyshachar/Projects/AlignAgents/AlignAgents/bin/Debug/netcoreapp2.1/AlignMissions.runtimeconfig.dev.json
+/Users/guyshachar/Projects/AlignAgents/AlignAgents/bin/Debug/netcoreapp2.1/AlignMissions.dll
+/Users/guyshachar/Projects/AlignAgents/AlignAgents/bin/Debug/netcoreapp2.1/AlignMissions.pdb
+/Users/guyshachar/Projects/AlignAgents/AlignAgents/obj/Debug/netcoreapp2.1/AlignMissions.csprojAssemblyReference.cache
+/Users/guyshachar/Projects/AlignAgents/AlignAgents/obj/Debug/netcoreapp2.1/AlignMissions.RazorAssemblyInfo.cache
+/Users/guyshachar/Projects/AlignAgents/AlignAgents/obj/Debug/netcoreapp2.1/AlignMissions.RazorAssemblyInfo.cs
+/Users/guyshachar/Projects/AlignAgents/AlignAgents/obj/Debug/netcoreapp2.1/AlignMissions.AssemblyInfoInputs.cache
+/Users/guyshachar/Projects/AlignAgents/AlignAgents/obj/Debug/netcoreapp2.1/AlignMissions.AssemblyInfo.cs
+/Users/guyshachar/Projects/AlignAgents/AlignAgents/obj/Debug/netcoreapp2.1/AlignMissions.RazorTargetAssemblyInfo.cache
+/Users/guyshachar/Projects/AlignAgents/AlignAgents/obj/Debug/netcoreapp2.1/AlignMissions.dll
+/Users/guyshachar/Projects/AlignAgents/AlignAgents/obj/Debug/netcoreapp2.1/AlignMissions.pdb
