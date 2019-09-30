@@ -46,7 +46,7 @@ namespace AlignMissions.Controllers
         {
             var closestMission = Geo.FindClosestMission(value);
 
-            return Ok($"Closest mission to {value} is {closestMission}");
+            return Ok($"Closest mission to {value} is Agent:{closestMission.mission.Agent}, Address:{closestMission.mission.Address},{closestMission.mission.Country} Date:{closestMission.mission.Date}, Distance is {closestMission.minimalDistance} KM");
         }
     }
 }

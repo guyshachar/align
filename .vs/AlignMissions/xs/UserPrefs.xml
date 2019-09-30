@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{12D957EF-55B7-4214-9635-F9781C053FCB}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AlignAgents/IGeo.cs">
+    <Files>
+      <File FileName="AlignAgents/Program.cs" Line="22" Column="13" />
+      <File FileName="AlignAgents/Geo.cs" Line="9" Column="24" />
+      <File FileName="AlignAgents/Controllers/MissionsController..cs" Line="1" Column="1" />
+      <File FileName="AlignAgents/Startup.cs" Line="4" Column="30" />
+      <File FileName="AlignAgents/IGeo.cs" Line="8" Column="8" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AlignMissions" expanded="True">
+            <Node name="AlignMissions" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="IGeo.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>jsonResponse["result"]</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.AlignMissions PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

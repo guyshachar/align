@@ -5,10 +5,6 @@ namespace AlignMissions
 {
     public interface IGeo
     {
-        MapPoint EntityToMapPopint(MissionEntity missionEntity);
-
-        string DistanceBetweenAddresses(MapPoint fromAddress, MapPoint toAddress);
-
-        MissionEntity FindClosestMission(string address);
+        (MissionEntity mission, Double minimalDistance) FindClosestMission(string address);
     }
 }

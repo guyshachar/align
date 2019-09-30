@@ -12017,11 +12017,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/guyshachar/Projects/AlignAgents/AlignAgents/AlignMissions.csproj",
+      "projectUniqueName": "/Users/guyshachar/Documents/GitHub/align/AlignAgents/AlignMissions.csproj",
       "projectName": "AlignMissions",
-      "projectPath": "/Users/guyshachar/Projects/AlignAgents/AlignAgents/AlignMissions.csproj",
+      "projectPath": "/Users/guyshachar/Documents/GitHub/align/AlignAgents/AlignMissions.csproj",
       "packagesPath": "/Users/guyshachar/.nuget/packages/",
-      "outputPath": "/Users/guyshachar/Projects/AlignAgents/AlignAgents/obj/",
+      "outputPath": "/Users/guyshachar/Documents/GitHub/align/AlignAgents/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
