@@ -21,13 +21,12 @@ Find the closest mission from a specific address (any existing mission’s addre
 Endpoint: POST /find-closest
           Body: {“target-location”: “[an address or geo coordinates]”}
 
-<b>Developer comment:<b>
+<b>Developer comment:</b>
 <li>As a database I use a dictionary which stores the missions in memory</li>
 <li>For Geo functionality I implemented Google Geocordinate API</li>
 <li>I Deployed the applicaiton into Google Cloud platform, using Docker & K8S</li>
 <li>Application is exposed in Google Cloud using the following url http://35.193.212.227/</li>
 
-<h5>
 Sample data: 
 
 [
@@ -92,4 +91,3 @@ Sample data:
     "date": "Dec 1, 2016, 9:21:21 PM"
   }
 ]
-</h5>
