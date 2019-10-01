@@ -1,0 +1,39 @@
+services:
+  alignmissions:
+    build:
+      context: /Users/guyshachar/Documents/GitHub/align
+      dockerfile: AlignAgents/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: AlignMissions
+      target: base
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTPS_PORT: '44343'
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages
+    image: alignmissions:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
+        --additionalProbingPath /root/.nuget/fallbackpackages  "bin/Debug/netcoreapp2.1/AlignMissions.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - published: 58540
+      target: 80
+    - published: 44343
+      target: 443
+    tty: true
+    volumes:
+    - /Users/guyshachar/Documents/GitHub/align/AlignAgents:/app:rw
+    - /Users/guyshachar/vsdbg/vs2017u5:/remote_debugger:rw
+    - /Users/guyshachar/.aspnet/https:/root/.aspnet/https:ro
+    - /Users/guyshachar/.microsoft/usersecrets:/root/.microsoft/usersecrets:ro
+    - /usr/local/share/dotnet/sdk/NuGetFallbackFolder:/root/.nuget/fallbackpackages:ro
+    - /Users/guyshachar/.nuget/packages:/root/.nuget/packages:ro
+    - /Users/guyshachar/Documents/GitHub/align:/src:rw
+version: '3.4'

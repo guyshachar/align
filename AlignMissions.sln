@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlignMissions", "AlignAgents\AlignMissions.csproj", "{12D957EF-55B7-4214-9635-F9781C053FCB}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{3E18493D-D980-4C5E-9BDA-FEBE73BD75A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,5 +15,9 @@ Global
 		{12D957EF-55B7-4214-9635-F9781C053FCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12D957EF-55B7-4214-9635-F9781C053FCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12D957EF-55B7-4214-9635-F9781C053FCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E18493D-D980-4C5E-9BDA-FEBE73BD75A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E18493D-D980-4C5E-9BDA-FEBE73BD75A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E18493D-D980-4C5E-9BDA-FEBE73BD75A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E18493D-D980-4C5E-9BDA-FEBE73BD75A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

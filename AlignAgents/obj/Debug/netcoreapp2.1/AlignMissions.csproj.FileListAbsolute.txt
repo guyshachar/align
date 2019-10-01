@@ -30,3 +30,5 @@
 /Users/guyshachar/Documents/GitHub/align/AlignAgents/bin/Debug/netcoreapp2.1/AlignMissions.dll
 /Users/guyshachar/Documents/GitHub/align/AlignAgents/bin/Debug/netcoreapp2.1/AlignMissions.pdb
 /Users/guyshachar/Documents/GitHub/align/AlignAgents/obj/Debug/netcoreapp2.1/AlignMissions.RazorTargetAssemblyInfo.cache
+/Users/guyshachar/Documents/GitHub/align/AlignAgents/bin/Debug/netcoreapp2.1/SampleData.json
+/Users/guyshachar/Documents/GitHub/align/AlignAgents/obj/Debug/netcoreapp2.1/UserSecretsAssemblyInfo.cs

@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  alignmissions:
+    image: ${DOCKER_REGISTRY-}alignmissions
+    build:
+      context: .
+      dockerfile: AlignAgents/Dockerfile
