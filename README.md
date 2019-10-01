@@ -4,12 +4,14 @@
 Tasks to do list:
 Part 1:
 Endpoint: POST /mission
+Alternative endpoint: POST /missions - Support multiple missions as a json array
 Body: {“agent”: “[codename]”, “country”: “[country]”, “address”: “[address string]”, “date”: “[date and time]”}
 Adds a mission.
 See the sample data below.
 
 Part 2: 
-Endpoint: GET /countries-by-isolation An isolated agent is defined as an agent that participated in a single mission. Implement an algorithm that finds the most isolated country (the country with the highest degree of isolated agents). For the sample input (see below) input:
+Endpoint: GET /countries-by-isolation
+An isolated agent is defined as an agent that participated in a single mission. Implement an algorithm that finds the most isolated country (the country with the highest degree of isolated agents). For the sample input (see below) input:
 Brazil has 1 isolated agent (008) and 2 non-isolated agents (007, 005)
 Poland has 2 isolated agents (011, 013) and one non-isolated agent (005)
 Morocco has 3 isolated agents (002, 009, 003) and one non-isolated agent (007)
@@ -20,6 +22,8 @@ Find the closest mission from a specific address (any existing mission’s addre
 
 Endpoint: POST /find-closest
           Body: {“target-location”: “[an address or geo coordinates]”}
+
+<ul/>
 
 <b>Developer comment:</b>
 <li>As a database I use a dictionary which stores the missions in memory</li>
