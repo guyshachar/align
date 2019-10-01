@@ -1,26 +1,29 @@
 # Align Technologies candidate home task
 # developed by Guy Shachar
 
-Tasks to do list:
-Part 1:
-Endpoint: POST /mission
-Alternative endpoint: POST /missions - Support multiple missions as a json array
-Body: {“agent”: “[codename]”, “country”: “[country]”, “address”: “[address string]”, “date”: “[date and time]”}
-Adds a mission.
-See the sample data below.
+Tasks to do:
 
-Part 2: 
-Endpoint: GET /countries-by-isolation
+Part 1:
+
+Endpoint: POST /mission<br>
+Alternative endpoint: POST /missions - Support multiple missions as a json array<br>
+
+Body: {“agent”: “[codename]”, “country”: “[country]”, “address”: “[address string]”, “date”: “[date and time]”}
+Adds a mission.<br>
+See the sample data below.<br>
+
+Part 2:<br>
+Endpoint: GET /countries-by-isolation<br>
 An isolated agent is defined as an agent that participated in a single mission. Implement an algorithm that finds the most isolated country (the country with the highest degree of isolated agents). For the sample input (see below) input:
 Brazil has 1 isolated agent (008) and 2 non-isolated agents (007, 005)
 Poland has 2 isolated agents (011, 013) and one non-isolated agent (005)
 Morocco has 3 isolated agents (002, 009, 003) and one non-isolated agent (007)
  So the result is Morocco with an isolation degree of 3.
 
-Part 3:
-Find the closest mission from a specific address (any existing mission’s address)
+Part 3:<br>
+Find the closest mission from a specific address (any existing mission’s address)<br>
 
-Endpoint: POST /find-closest
+Endpoint: POST /find-closest<br>
           Body: {“target-location”: “[an address or geo coordinates]”}
 
 <ul/>
@@ -30,7 +33,7 @@ Endpoint: POST /find-closest
 <li>For Geo functionality I implemented Google Geocordinate API</li>
 <li>I Deployed the applicaiton into Google Cloud platform, using Docker & K8S</li>
 <li>Application is exposed in Google Cloud using the following url http://35.193.212.227/</li>
-
+<br>
 Sample data: 
 
 [
