@@ -48,5 +48,13 @@ namespace AlignMissions.Controllers
 
             return Ok($"Closest mission to {value} is Agent:{closestMission.mission.Agent}, Address:{closestMission.mission.Address},{closestMission.mission.Country} Date:{closestMission.mission.Date}, Distance is {closestMission.minimalDistance} KM");
         }
+
+        // GET api/values
+        [HttpGet]
+        [Route("/status")]
+        public ActionResult<string> GetStatus()
+        {
+            return Ok($"Date & Time are {DateTime.Now.ToString("G")}");
+        }
     }
 }
