@@ -5,7 +5,7 @@
     <DockerTargetOS>Linux</DockerTargetOS>
     <ProjectGuid>{3E18493D-D980-4C5E-9BDA-FEBE73BD75A9}</ProjectGuid>
     <DockerLaunchBrowser>True</DockerLaunchBrowser>
-    <DockerServiceUrl>{Scheme}://localhost:{ServicePort}/api/missions</DockerServiceUrl>
+    <DockerServiceUrl>{Scheme}://localhost:{ServicePort}/missions</DockerServiceUrl>
     <DockerServiceName>alignmissions</DockerServiceName>
   </PropertyGroup>
   <ItemGroup>

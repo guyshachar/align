@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{3E18493D-D980-4C5E-9BDA-FEBE73BD75A9}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../../Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/docker/MonoDevelop.Docker/MSBuild/Sdks/Microsoft.Docker.Sdk/build/Microsoft.VisualStudio.Docker.Compose.targets">
+  <MonoDevelop.Ide.Workbench ActiveDocument="docker-compose.override.yml">
     <Files>
       <File FileName="AlignAgents/Program.cs" Line="22" Column="13" />
       <File FileName="AlignAgents/Geo.cs" Line="49" Column="29" />
@@ -8,9 +8,10 @@
       <File FileName="AlignAgents/IGeo.cs" Line="8" Column="56" />
       <File FileName="AlignAgents/InMemoryDb.cs" Line="1" Column="1" />
       <File FileName="AlignAgents/Dockerfile" Line="1" Column="1" />
-      <File FileName="docker-compose.yml" Line="1" Column="1" />
+      <File FileName="docker-compose.yml" Line="9" Column="1" />
       <File FileName="docker-compose.override.yml" Line="1" Column="1" />
-      <File FileName="../../../../../Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/docker/MonoDevelop.Docker/MSbuild/Sdks/Microsoft.Docker.Sdk/build/Microsoft.VisualStudio.Docker.Compose.targets" Line="386" Column="5" />
+      <File FileName="AlignAgents/appsettings.json" Line="1" Column="1" />
+      <File FileName=".dockerignore" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,7 +21,9 @@
               <Node name="Controllers" expanded="True" />
             </Node>
             <Node name="docker-compose" expanded="True">
-              <Node name="docker-compose.yml" selected="True" />
+              <Node name="docker-compose.yml" expanded="True">
+                <Node name="docker-compose.override.yml" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>

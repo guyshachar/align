@@ -20,7 +20,7 @@
     "AlignMissions": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "api/missions",
+      "launchUrl": "missions",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
