@@ -27,6 +27,7 @@ Endpoint: POST /find-closest
 <li>I Deployed the applicaiton into Google Cloud platform, using Docker & K8S</li>
 <li>Application is exposed in Google Cloud using the following url http://35.193.212.227/</li>
 
+<h5>
 Sample data: 
 
 [
@@ -91,4 +92,4 @@ Sample data:
     "date": "Dec 1, 2016, 9:21:21 PM"
   }
 ]
-
+</h5>
