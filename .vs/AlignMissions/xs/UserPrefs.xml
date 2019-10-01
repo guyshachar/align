@@ -1,17 +1,17 @@
 ﻿<Properties StartupConfiguration="{3E18493D-D980-4C5E-9BDA-FEBE73BD75A9}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="docker-compose.override.yml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AlignAgents/Dockerfile">
     <Files>
-      <File FileName="AlignAgents/Program.cs" Line="22" Column="13" />
+      <File FileName="AlignAgents/Program.cs" Line="21" Column="1" />
       <File FileName="AlignAgents/Geo.cs" Line="49" Column="29" />
-      <File FileName="AlignAgents/Controllers/MissionsController..cs" Line="49" Column="250" />
+      <File FileName="AlignAgents/Controllers/MissionsController..cs" Line="20" Column="37" />
       <File FileName="AlignAgents/Startup.cs" Line="4" Column="30" />
       <File FileName="AlignAgents/IGeo.cs" Line="8" Column="56" />
       <File FileName="AlignAgents/InMemoryDb.cs" Line="1" Column="1" />
-      <File FileName="AlignAgents/Dockerfile" Line="1" Column="1" />
       <File FileName="docker-compose.yml" Line="9" Column="1" />
-      <File FileName="docker-compose.override.yml" Line="1" Column="1" />
+      <File FileName="docker-compose.override.yml" Line="10" Column="19" />
       <File FileName="AlignAgents/appsettings.json" Line="1" Column="1" />
       <File FileName=".dockerignore" Line="1" Column="1" />
+      <File FileName="AlignAgents/Dockerfile" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,11 +19,10 @@
           <Node name="AlignMissions" expanded="True">
             <Node name="AlignMissions" expanded="True">
               <Node name="Controllers" expanded="True" />
+              <Node name="Dockerfile" selected="True" />
             </Node>
             <Node name="docker-compose" expanded="True">
-              <Node name="docker-compose.yml" expanded="True">
-                <Node name="docker-compose.override.yml" selected="True" />
-              </Node>
+              <Node name="docker-compose.yml" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -42,7 +41,11 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/guyshachar/Documents/GitHub/align/AlignAgents/Controllers/MissionsController..cs" relfile="AlignAgents/Controllers/MissionsController..cs" line="18" column="1" />
+      <Breakpoint file="/Users/guyshachar/Documents/GitHub/align/AlignAgents/Program.cs" relfile="AlignAgents/Program.cs" line="23" column="1" />
+      <Breakpoint file="/Users/guyshachar/Documents/GitHub/align/AlignAgents/Controllers/MissionsController..cs" relfile="AlignAgents/Controllers/MissionsController..cs" line="36" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
