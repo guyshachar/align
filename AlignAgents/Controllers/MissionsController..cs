@@ -41,6 +41,14 @@ namespace AlignMissions.Controllers
 
         // POST api/values
         [HttpPost]
+        [Route("/mission")]
+        public ActionResult<string> LoadMission([FromBody] string value)
+        {
+            return LoadMissions(value);
+        }
+
+        // POST api/values
+        [HttpPost]
         [Route("/find-closest")]
         public ActionResult<string> FindClosestMission([FromBody] string value)
         {
