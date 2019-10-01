@@ -8,9 +8,6 @@ Body: {“agent”: “[codename]”, “country”: “[country]”, “address
 Adds a mission.
 See the sample data below.
 
-Developer comment:
-As a database I use a dictionary which stores the missions in memory.
-
 Part 2: 
 Endpoint: GET /countries-by-isolation An isolated agent is defined as an agent that participated in a single mission. Implement an algorithm that finds the most isolated country (the country with the highest degree of isolated agents). For the sample input (see below) input:
 Brazil has 1 isolated agent (008) and 2 non-isolated agents (007, 005)
@@ -24,6 +21,11 @@ Find the closest mission from a specific address (any existing mission’s addre
 Endpoint: POST /find-closest
           Body: {“target-location”: “[an address or geo coordinates]”}
 
+<b>Developer comment:<b>
+<ul> As a database I use a dictionary which stores the missions in memory
+* For Geo functionality I implemented Google Geocordinate API
+* I Deployed the applicaiton into Google Cloud platform, using Docker & K8S
+* Application is exposed in Google Cloud using the following url http://35.193.212.227/
 
 Sample data: 
 
