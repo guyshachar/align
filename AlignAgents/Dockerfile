@@ -5,9 +5,9 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/core/sdk:2.1-stretch AS build
 WORKDIR /src
-COPY AlignMissions.csproj AlignAgents/
+COPY ./AlignMissions.csproj AlignAgents/
 RUN dotnet restore "AlignAgents/AlignMissions.csproj"
-COPY . .
+COPY . ./AlignAgents/
 WORKDIR "/src/AlignAgents"
 RUN dotnet build "AlignMissions.csproj" -c Release -o /app/build
 
