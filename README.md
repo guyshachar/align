@@ -33,6 +33,7 @@ Endpoint: POST /find-closest<br>
 <li>For Geo functionality I implemented Google Geocordinate API</li>
 <li>I Deployed the applicaiton into Google Cloud platform, using Docker & K8S</li>
 <li>Application is exposed in Google Cloud using the following url http://35.193.212.227/</li>
+<li>Additional Endpoint: GET /status - Act as Health check
 <br>
 Sample data: 
 
