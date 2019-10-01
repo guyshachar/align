@@ -22,10 +22,10 @@ Endpoint: POST /find-closest
           Body: {“target-location”: “[an address or geo coordinates]”}
 
 <b>Developer comment:<b>
-<ul> As a database I use a dictionary which stores the missions in memory
-* For Geo functionality I implemented Google Geocordinate API
-* I Deployed the applicaiton into Google Cloud platform, using Docker & K8S
-* Application is exposed in Google Cloud using the following url http://35.193.212.227/
+<li>As a database I use a dictionary which stores the missions in memory</li>
+<li>For Geo functionality I implemented Google Geocordinate API</li>
+<li>I Deployed the applicaiton into Google Cloud platform, using Docker & K8S</li>
+<li>Application is exposed in Google Cloud using the following url http://35.193.212.227/</li>
 
 Sample data: 
 
